@@ -25,5 +25,5 @@ def quick_sort(arr):
     return arr
 
 arr=[3,2,9,1,7,4]
-rs=quick_sort(arr)
-print(rs)
+result=quick_sort(arr)
+print(result)
