@@ -10,3 +10,7 @@ def binary_search(arr,target):
             start=mid+1
         elif (arr[mid]>target):
             end=mid-1
+l1=[11,67,89,101,401]
+target=101
+result=binary_search(l1,target)
+print(result)

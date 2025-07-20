@@ -6,5 +6,5 @@ def linear_search(arr,target):
     return -1
 l1=[20,30,40,90,10]
 target=40
-rs=linear_search(l1,target)
-print(rs)
+result=linear_search(l1,target)
+print(result)
