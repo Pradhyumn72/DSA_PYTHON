@@ -43,6 +43,6 @@ def MergeSort(l1):
     return MergeSortHelper(l1,0,len(l1)-1)
 
 
-l1=[111,121,132,140,90,1]
+l1=[111,121,132,140,90]
 MergeSort(l1)
 print(l1)
