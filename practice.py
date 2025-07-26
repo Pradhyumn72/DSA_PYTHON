@@ -1,4 +1,4 @@
-def Sumofa(array):
+def Sumofa(arr):
     sum=0
     i=0
     e=len(arr)-1
@@ -6,6 +6,6 @@ def Sumofa(array):
         sum+=arr[i]
         i+=1
     return sum
-array=[]
-d=Sumofa(arr)
-print(d)    
+arr=[]
+result=Sumofa(arr)
+print(result)    
